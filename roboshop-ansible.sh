@@ -2,7 +2,7 @@
 
 yum install ansible -y
 cd /tmp
-git clone https://github.com/sivadevopsdaws74s/ansible-roboshop-roles.git
+git clone https://github.com/Saikiransiddhu/roboshop-infra-user.git
 cd ansible-roboshop-roles
 ansible-playbook -i inventory -e ansible_user=centos -e ansible_password=DevOps321 -e component=mongodb main.yaml
 
